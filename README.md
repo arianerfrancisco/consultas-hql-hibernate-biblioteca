@@ -4,3 +4,11 @@
 
 
 ![images](https://user-images.githubusercontent.com/72419533/157236257-607c536c-5eef-484a-83bb-0a334295a4f9.png)
+
+🚨 Nota: Se atentar sempre nas configurações do arquivo hibernate.cfg.xml no ponto a seguir e garantir que o BD não seja apagado a cada execução do projeto.
+
+
+		<property name="current_session_context_class">thread</property>
+		<property name="hibernate.hbm2ddl.auto">update</property>
+
+
